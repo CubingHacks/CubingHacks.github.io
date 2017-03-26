@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <style>
+        body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+    </head>
+    <body>
+        <center><img src="Logo.png"></center>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="About.html">About</a>  
+    <a href="#">F2L</a>
+    <a href="OLL.html">OLL</a>
+    <a href="PLL.html">PLL</a>
+    <a href="#">COLL</a>
+    <a href="#">Lookahead</a>
+    <a href="#">Walkthrough Solves</a>
+    <a href="#">Competition Videos</a>
+    <a href="Subscribed Channels.html">Subescribed Channels</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+        <center><h1>PLL</h1>
+        
+        <p><h2>EPLL</h2></p>
+        <p><h3>H</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/f/f7/H.gif">
+        <h3>M2 U M2 U2 M2 U M2</h3>
+        <br/>
+        <p><h3>Ua</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/6/6b/U1.gif">
+        <h3>R2 U' R' U' R U R U R U' R</h3>
+        <h3>(y2) R U' R U R U R U' R' U' R2</h3>
+        <br/>
+        <p><h3>Ub</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/4/47/U.gif">
+        <h3>R' U R' U' R3 U' R' U R U R2</h3>
+        <h3>(y2) R2 U R U R' U' R3 U' R' U R'</h3>
+        <br/>
+        <p><h3>Z</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/2/2c/Z.gif">
+        <h3>M' U' M2 U' M2 U' M' U2 M2 (U)</h3>
+        <h3>(y) M2 U' M2 U M' U2 M2 U2 M' (U2)</h3>
+        
+        <br/>
+        <p><h2>Corners Only</h2></p>
+        <p><h3>Aa</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/0/08/A1.gif">
+        <h3>(x) R' U R' D2 R U' R' D2 R2 (x')</h3>
+        <br/>
+        <p><h3>Ab</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/b/b2/A.gif">
+        <h3>(y' x) R2 D2 R U R' D2 R U' R (x')</h3>
+        <br/>
+        <p><h3>E</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/7/7b/E.gif">
+        <h3>(y x') (R U' R' D) (R U R' D') (R U R' D) (R U' R' D') (x)</h3>
+        
+        <br/>
+        <p><h2>2 Edges & 2 Corners</h2></p>
+        <p><h3>T</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/4/49/T.gif">
+        <h3>R U R' U' R' F R2 U' R' U' R U R' F'</h3>
+        <br/>
+        <p><h3>Ja</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/f/fb/J1.gif">
+        <h3>(y) (R' U L') U2 (R U' R') U2 R L</h3>
+        <br/>
+        <p><h3>Jb</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/1/17/J.gif">
+        <h3>R U R' F' R U R' U' R' F R2 U' R' (U')</h3>
+        <br/>
+        <p><h3>Ra</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/8/85/R1.gif">
+        <h3>R U2 R' U2 R B' R' U' R U R B R2 (U)</h3>
+        <p><h3>Rb</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/3/38/R.gif">
+        <h3>R' U2 R U2 R' F (R U R' U') R' F' R2' (U')</h3>
+        <br/>
+        <p><h3>F</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/f/fd/F.gif">
+        <h3>R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R</h3>
+        <br/>
+        <p><h3>V</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/9/90/V.gif">
+        <h3>R' U R' (y) U' R' F' R2 U' R' U R' F R F</h3>
+        <br/>
+        <p><h3>Y</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/b/b9/Y.gif">
+        <h3>F R U' R' U' R U R' F' R U R' U' R' F R F'</h3>
+        <br/>
+        <p><h3>Na</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/5/59/N1.gif">
+        <h3>R U R' U (R U R' F' R U R' U' R' F R2 U' R') U2 R U' R'</h3>
+        <br/>
+        <p><h3>Nb</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/f/fa/N.gif">
+        <h3>(z) (U' R D' R2' U R' D)2 (z')</h3>
+        
+        <br/>
+        <p><h2>G-Perms</h2></p>
+        <p><h3>Ga</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/2/2f/G3.gif">
+        <h3>(y) R2 U (R' U R' U') R U' R2 (D U' R' U) R D' (U)</h3>
+        <br/>
+        <p><h3>Gb</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/4/4d/G2.gif">
+        <h3>R' U' R U D' R2 U R' U R U' R U' R2 D (U')</h3>
+        <br/>
+        <p><h3>Gc</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/a/a6/G1.gif">
+        <h3>(y') R2' F2 R U2 R U2 R' F R U R' U' R' F R2</h3>
+        <br/>
+        <p><h3>Gd</h3></p>
+        <img src = "https://www.speedsolving.com/wiki/images/7/75/G.gif">
+        <h3>R U R' U' D R2 U' R U' R' U R' U R2 D' (U)</h3>
+        </center>
+    </body>
+</html>

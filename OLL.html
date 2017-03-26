@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <style>
+        body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+    </head>
+    <body>
+        <center><img src="Logo.png"></center>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="About.html">About</a>  
+    <a href="#">F2L</a>
+    <a href="OLL.html">OLL</a>
+    <a href="PLL.html">PLL</a>
+    <a href="#">COLL</a>
+    <a href="#">Lookahead</a>
+    <a href="#">Walkthrough Solves</a>
+    <a href="#">Competition Videos</a>
+    <a href="Subscribed Channels.html">Subescribed Channels</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+        <center><h1>OLL</h1>
+        
+        <p><h2>All Edges Oriented</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_U2_R_U_R'_U_R.png">
+        <h3>(y) R U R' U R U2' R'</h3>
+        <h3>R' U2' R U R' U R</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U2_R'_U'_R_U'_R'.png">
+        <h3>(y') R' U' R U' R' U2 R</h3>
+        <h3>R U2 R' U' R U' R'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R_U'_R'_U_R_U2_R'.png">
+        <h3>(y) R U2 R' U' R U R' U' R U' R'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U2_R2'_U'_R2_U'_R2'_U2_R.png">
+        <h3>R U2 R2 U' R2 U' R2 U2 R</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_r_U_R'_U'_r'_F_R_F'.png">
+        <h3>r U R' U' r' F R F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F'_r_U_R'_U'_r'_F_R.png">
+        <h3>(y') F' r U R' U' r' F R</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R2_D_R'_U2_R_D'_R'_U2_R'.png">
+        <h3>(y2) R2 D' R U2 R' D R U2 R</h3>
+        
+        <br/>
+        <p><h2>T-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U'_R'_F_R_F'.png">
+        <h3>R U R' U' R' F R F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U'_F'.png">
+        <h3>F R U R' U' F'</h3>
+        
+        <br/>
+        <p><h2>Squares</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_r'_U2_R_U_R'_U_r.png">
+        <h3>r' U2 R U R' U r</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_r_U2_R'_U'_R_U'_r'.png">
+        <h3>r U2 R' U' R U' r'</h3>
+        
+        <br/>
+        <p><h2>C-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U'_x_D'_R'_U_R_U'_D_x'.png">
+        <h3>(R U R2' U') (R' F R U) R U' F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_U'_R'_F_R_F'_U_R.png">
+        <h3>R' U' (R' F R F') U R</h3>
+        
+        <br/>
+        <p><h2>W-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R_U'_R'_U'_R'_F_R_F'.png">
+        <h3>(R U R' U) (R U' R' U') (R' F R F')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_L'_U'_L_U'_L'_U_L_U_L_F'_L'_F.png">
+        <h3>(y2) (R' U' R U') (R' U R U) l U' R' U x</h3>
+        
+        <br/>
+        <p><h2>Corners Oriented, Edges Flipped</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_M'_U'_M_U2'_M'_U'_M.png">
+        <h3>(y) (r U R' U') M (U R U' R')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U'_M'_U_R_U'_r'.png">
+        <h3>(R U R' U') M' (U R U' r')</h3>
+        
+        <br/>
+        <p><h2>P-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_f'_L'_U'_L_U_f.png">
+        <h3>(y) R' U' F' U F R</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_f_R_U_R'_U'_f'.png">
+        <h3>(y2) F (U R U' R') F'</h3>
+        <h3>f (R U R' U') f'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_U'_F_U_R_U'_R'_F'_R.png">
+        <h3> (y2) (R' U' F) (U R U' R') F' R</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_U_R_U'_F'_r_U_R'_U'_r'.png">
+        <h3>(y2) R U B' (U' R' U) (R B R')</h3>
+        
+        <br/>
+        <p><h2>I-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_f_R_U_R'_U'_R_U_R'_U'_f'.png">
+        <h3>(y2) F (U R U' R') (U R U' R') F'</h3>
+        <h3>f (R U R' U') (R U R' U') f'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U'_R_F'_r_U_R'_U'_r'.png">
+        <h3>r' U' r (U' R' U R) (U' R' U R) r' U r</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R_d'_R_U'_R'_F'.png">
+        <h3>(R' U' R U' R' U) y' (R' U R) B</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U2_R2_U'_R_U'_R'_U2_F_R_F'.png">
+        <h3>y (R' F R U) (R U' R2' F') R2 U' R' (U R U R')</h3>
+        
+        <br/>
+        <p><h2>Fish Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U'_R'_F_R2_U_R'_U'_F'.png">
+        <h3>(R U R' U') R' F (R2 U R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R'_F_R_F'_R_U2_R'.png">
+        <h3>(R U R' U) (R' F R F') (R U2' R')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U2_R'_R'_F_R_F'_R_U2_R'.png">
+        <h3>(R U2') (R2' F R F') (R U2' R')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R'_F'_R_U_R_U'_R'.png">
+        <h3>F (R U' R' U') (R U R' F')</h3>
+        
+        <br/>
+        <p><h2>Knight Move Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_U_R_U'_R2_F'_R_U_R_U'_R'.png">
+        <h3>(r U' r') (U' r U r')(F' U F)</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_F_R_U_R'_F'_R_y'_R_U'_R'.png">
+        <h3>(R' F R) (U R' F' R) (F U' F')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_r_U_r'_R_U_R'_U'_r_U'_r'.png">
+        <h3>(r U r') (R U R' U') (r U' r')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_l'_U'_l_L'_U'_L_U_l'_U_l.png">
+        <h3>(y2) (r' U' r) (R' U' R U) (r' U r)</h3>
+        
+        <br/>
+        <p><h2>Awkward Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U'_R_U'_R'_F'_U'_F_R_U_R'.png">
+        <h3>(y') r2 D' r U r' D r2 U' r' U' r</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_L_F'_L'_F_L'_U2_L_d_R_U_R'.png">
+        <h3>F U (R U2 R' U') (R U2 R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R_U2_R'_F_R_U_R'_U'_F'.png">
+        <h3>(R U R' U R U2' R') F (R U R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_F_R_F'_R'_F_R_F'_R_U_R'_U'_R_U_R'.png">
+        <h3>(R' U' R U' R' U2 R) F (R U R' U') F'</h3>
+        
+        <br/>
+        <p><h2>L-Shapes</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U'_R_U_R'_U'_F'.png">
+        <h3>F (R U R' U') (R U R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F'_L'_U'_L_U_L'_U'_L_U_F.png">
+        <h3>F' (L' U' L U) (L' U' L U) F</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_F_R'_F'_R2_U2_y_R'_F_R_F'.png">
+        <h3>r U' r2' U r2 U r2' U' r</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_F_R2_B'_R2'_F'_R2_B_R'.png">
+        <h3>r' U r2 U' r2' U' r2 U r'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_l'_U'_L_U'_L'_U_L_U'_L'_U2_l.png">
+        <h3>(y') r' U2 R U R' U' R U R' U r</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_r_U_R'_U_R_U'_R'_U_R_U2'_r'.png">
+        <h3>(y') r U2 R' U' R U R' U' R U' r'</h3>
+        
+        <br/>
+        <p><h2>Lightning Bolts</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_r_U_R'_U_R_U2_r'.png">
+        <h3>(r U R' U R U2' r')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_r'_U'_R_U'_R'_U2_r.png">
+        <h3>(r' U' R U' R' U2 r)</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F'_L'_U'_L_U_F_y_F_R_U_R'_U'_F'.png">
+        <h3>(y') r' (R2 U R' U R U2 R') U M'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U'_F'_U_F_R_U_R'_U'_F'.png">
+        <h3>M' (R' U' R U' R' U2 R) U' M</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_L_F'_L'_U'_L_U_F_U'_L'.png">
+        <h3>(L F') (L' U' L U) F U' L'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R'_F_R_U_R'_U'_F'_U_R.png">
+        <h3>(R' F) (R U R' U') F' U R</h3>
+        
+        <br/>
+        <p><h2>No Edges Oriented</h2></p>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U2_R'_R'_F_R_F'_U2_R'_F_R_F'.png">
+        <h3>(R U2') (R2' F R F') U2' (R' F R F')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U'_F'_f_R_U_R'_U'_f'.png">
+        <h3>F (R U R' U') F' f (R U R' U') f'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_f_R_U_R'_U'_f'_U'_F_R_U_R'_U'_F'.png">
+        <h3>f (R U R' U') f' U' F (R U R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_f_R_U_R'_U'_f'_U_F_R_U_R'_U'_F'.png">
+        <h3>f (R U R' U') f' U F (R U R' U') F'</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_F_R_U_R'_U_y'_R'_U2_R'_F_R_F'.png">
+        <h3>(y') R U2' (R2' F R F') U2' M' (U R U' r')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_M_U_R_U_R'_U'_M'_R'_F_R_F'.png">
+        <h3>M U (R U R' U') M' (R' F R F')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_R_U_R'_U_R'_F_R_F'_U2_R'_F_R_F'.png">
+        <h3>(R U R' U) (R' F R F') U2' (R' F R F')</h3>
+        <br/>
+        <br/>
+        <img src = "https://solvethecube.com/img/cubes/oll_M_U_R_U_R'_U'_M2_U_R_U'_r'.png">
+        <h3>M U (R U R' U') M2' (U R U' r')</h3>
+        </center>
+    </body>
+</html>
